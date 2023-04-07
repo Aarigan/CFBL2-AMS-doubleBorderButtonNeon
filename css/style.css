@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* TODO : to adapt to other browsers */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  min-height: 100vh;
+  background: #081017;
+}
+
+button {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  transition: all 0.1s ease;
+  border: none;
+  /*   outline-color: transparent; */
+  cursor: pointer;
+}
+
+/* Button 1 */
+.btn-1 {
+  color: #8af9fe;
+  background: transparent;
+  border-color: #8af9fe;
+  border-style: double;
+  border-width: 3px;
+}
+
+.btn-1:hover,
+.btn-1:focus,
+.btn-1:active {
+  color: #8af9fe;
+  text-shadow: 0 2px 6px #8af9fe;
+  background: transparent;
+  border-color: #fff;
+  border-style: double;
+  border-width: 3px;
+  box-shadow: 0 0 78px 4px #8af9fe,
+              0 0 12px 2px #8af9fe,
+              inset 0 0 12px 2px #8af9fe;
+}
+
+/* Button 2 */
+.btn-2 {
+  color: #94befc;
+  background: transparent;
+  border-color: #0160ef;
+  border-style: double;
+  border-width: 3px;
+  border-radius: 3px;
+}
+
+.btn-2:hover,
+.btn-2:focus,
+.btn-2:active {
+  color: #94befc;
+  text-shadow: 0 2px 6px #94befc;
+  background: transparent;
+  border-color: #fff;
+  border-style: double;
+  border-width: 3px;
+  box-shadow: 0 0 78px 4px #0160ef,
+              0 0 12px 6px #0160ef,
+              inset 0 0 12px 6px #0160ef;
+}
+
+/* Button 3 */
+.btn-3 {
+  color: #d5b1fb;
+  background: transparent;
+  border-color: #7401ef;
+  border-style: double;
+  border-width: 3px;
+  border-radius: 6px;
+}
+
+.btn-3:hover,
+.btn-3:focus,
+.btn-3:active {
+  color: #d5b1fb;
+  text-shadow: 0 2px 6px #d5b1fb;
+  background: transparent;
+  border-color: #fff;
+  border-style: double;
+  border-width: 3px;
+  box-shadow: 0 0 78px 4px #7401ef,
+              0 0 12px 6px #7401ef,
+              inset 0 0 12px 6px #7401ef;
+}
+
+/* Button 4 */
+.btn-4 {
+  color: #c3c3c3;
+  background: transparent;
+  border-color: #737474;
+  border-style: double;
+  border-width: 3px;
+  border-radius: 12px;
+}
+
+.btn-4:hover,
+.btn-4:focus,
+.btn-4:active {
+  color: #c3c3c3;
+  text-shadow: 0 2px 6px #c3c3c3;
+  background: transparent;
+  border-color: #fff;
+  border-style: double;
+  border-width: 3px;
+  box-shadow: 0 0 78px 4px #737474,
+              0 0 12px 6px #737474,
+              inset 0 0 12px 6px #737474;
+}
+
+/* Button 5 */
+.btn-5 {
+  color: #ebc89c;
+  background: transparent;
+  border-color: #643801;
+  border-style: double;
+  border-width: 3px;
+  border-radius: 24px;
+}
+
+.btn-5:hover,
+.btn-5:focus,
+.btn-5:active {
+  color: #ebc89c;
+  text-shadow: 0 2px 6px #ebc89c;
+  background: transparent;
+  border-color: #fff;
+  border-style: double;
+  border-width: 3px;
+  box-shadow: 0 0 78px 4px #643801,
+              0 0 12px 6px #643801,
+              inset 0 0 12px 6px #643801;
+}
+
+/* Button 6 */
+.btn-6 {
+  color: #d2d217;
+  background: transparent;
+  border-color: #f9f902#f9f902;
+  border-style: double;
+  border-width: 3px;
+  border-radius: 100px;
+}
+
+.btn-6:hover,
+.btn-6:focus,
+.btn-6:active {
+  color: #d2d217;
+  text-shadow: 0 2px 6px #d2d217;
+  background: transparent;
+  border-color: #fff;
+  border-style: double;
+  border-width: 3px;
+  box-shadow: 0 0 78px 4px #f9f902,
+              0 0 12px 2px #f9f902,
+              inset 0 0 12px 2px #f9f902;
+}
+
+/* Button 7 */
+.btn-7 {
+  color: #fd9494;
+  background: transparent;
+  border-color: #a10000;
+  border-style: double;
+  border-width: 3px;
+  border-radius: 10px 100px / 120px;
+}
+
+.btn-7:hover,
+.btn-7:focus,
+.btn-7:active {
+  color: #fd9494;
+  text-shadow: 0 2px 6px #fd9494;
+  background: transparent;
+  border-color: #fff;
+  border-style: double;
+  border-width: 3px;
+  box-shadow: 0 0 78px 4px #a10000,
+              0 0 12px 6px #a10000,
+              inset 0 0 12px 6px #a10000;
+}
+
+/* Button 8 rounded*/
+.btn-8 {
+  width: 120px;
+  height: 120px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #b9fcb0;
+  background: transparent;
+  border-color: #2ffd14;
+  border-style: double;
+  border-width: 3px;
+  border-radius: 50%;
+}
+
+.btn-8:hover,
+.btn-8:focus,
+.btn-8:active {
+  color: #b9fcb0;
+  text-shadow: 0 2px 6px #b9fcb0;
+  background: transparent;
+  border-color: #fff;
+  border-style: double;
+  border-width: 3px;
+  box-shadow: 0 0 78px 4px #2ffd14,
+              0 0 12px 2px #2ffd14,
+              inset 0 0 12px 2px #2ffd14;
+}
